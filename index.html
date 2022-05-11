@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Tab</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1 id="last-update"></h1>
+    <div class="row">
+      <div class="search-filter-container">
+        <span class="vien"></span>
+        <div class="content">
+          <div class="search-filter-header"></div>
+          <h2>Search Filter</h2>
+
+          <div id="Discount" class="collapse show" role="tabpanel">
+            <div class="discount_level_filter">
+              <h3 class="filter-name">Languages</h3>
+
+              <div tabindex="-1" role="group" class="bv-no-focus-ring">
+                <div
+                  role="radiogroup"
+                  tabindex="-1"
+                  class="form-radio-group bv-no-focus-ring"
+                  id="languages"
+                >
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-language"
+                      class="custom-control-input"
+                      value=""
+                      id="language1"
+                    /><label class="custom-control-label" for="language1"
+                      ><span>All Languages</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-language"
+                      class="custom-control-input"
+                      value="1"
+                      id="language2"
+                    /><label class="custom-control-label" for="language2"
+                      ><span>English</span></label
+                    >
+                  </div>
+                </div>
+                <!----><!----><!---->
+              </div>
+            </div>
+
+            <div class="discount_level_filter">
+              <h3 class="filter-name">Ratings</h3>
+              <div tabindex="-1" role="group" class="bv-no-focus-ring">
+                <div
+                  role="radiogroup"
+                  tabindex="-1"
+                  class="form-radio-group bv-no-focus-ring"
+                  id="ratings"
+                >
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-rating"
+                      class="custom-control-input"
+                      value="0"
+                      id="rating_option1"
+                    /><label class="custom-control-label" for="rating_option1"
+                      ><span>All Ratings</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-rating"
+                      class="custom-control-input"
+                      value="4.5"
+                      id="rating_option2"
+                    /><label class="custom-control-label" for="rating_option2"
+                      ><span>4.5 and above</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-rating"
+                      class="custom-control-input"
+                      value="4"
+                      id="rating_option3"
+                    /><label class="custom-control-label" for="rating_option3"
+                      ><span>4.0 and above</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-rating"
+                      class="custom-control-input"
+                      value="3.5"
+                      id="__BVID__106_BV_option_3"
+                    /><label
+                      class="custom-control-label"
+                      for="__BVID__106_BV_option_3"
+                      ><span>3.5 and above</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-rating"
+                      class="custom-control-input"
+                      value="3"
+                      id="rating_option4"
+                    /><label class="custom-control-label" for="rating_option4"
+                      ><span>3.0 and above</span></label
+                    >
+                  </div>
+                </div>
+                <!----><!----><!---->
+              </div>
+            </div>
+            <div class="discount_level_filter">
+              <h3 class="filter-name">Levels</h3>
+              <div tabindex="-1" role="group" class="bv-no-focus-ring">
+                <div
+                  role="radiogroup"
+                  tabindex="-1"
+                  class="bv-no-focus-ring"
+                  id="levels"
+                >
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-level"
+                      class="custom-control-input"
+                      value="All Levels"
+                      id="level_option1"
+                    /><label class="custom-control-label" for="level_option1"
+                      ><span>All Levels</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-level"
+                      class="custom-control-input"
+                      value="Beginner Level"
+                      id="level_option2"
+                    /><label class="custom-control-label" for="level_option2"
+                      ><span>Beginner</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-level"
+                      class="custom-control-input"
+                      value="Intermediate Level"
+                      id="level_option3"
+                    /><label class="custom-control-label" for="level_option3"
+                      ><span>Intermediate</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-level"
+                      class="custom-control-input"
+                      value="Expert Level"
+                      id="level_option4"
+                    /><label class="custom-control-label" for="level_option4"
+                      ><span>Expert</span></label
+                    >
+                  </div>
+                </div>
+                <!----><!----><!---->
+              </div>
+            </div>
+            <div class="discount_level_filter">
+              <h3 class="filter-name">Durations</h3>
+              <div tabindex="-1" role="group" class="bv-no-focus-ring">
+                <div
+                  role="radiogroup"
+                  tabindex="-1"
+                  class="form-radio-group bv-no-focus-ring"
+                  id="durations"
+                >
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-duration"
+                      class="custom-control-input"
+                      value="0"
+                      id="duration_option1"
+                    /><label class="custom-control-label" for="duration_option1"
+                      ><span>All Durations</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-duration"
+                      class="custom-control-input"
+                      value="2"
+                      id="duration_option2"
+                    /><label class="custom-control-label" for="duration_option2"
+                      ><span>0 - 2 Hours</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-duration"
+                      class="custom-control-input"
+                      value="6"
+                      id="duration_option3"
+                    /><label class="custom-control-label" for="duration_option3"
+                      ><span>3 - 6 Hours</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-duration"
+                      class="custom-control-input"
+                      value="16"
+                      id="duration_option4"
+                    /><label
+                      class="custom-control-label"
+                      for="__BVID__124_BV_option4"
+                      ><span>7 - 16 Hours</span></label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-control-inline custom-radio"
+                  >
+                    <input
+                      type="radio"
+                      name="radio-sub-component-duration"
+                      class="custom-control-input"
+                      value="17"
+                      id="duration_option5"
+                    /><label class="custom-control-label" for="duration_option5"
+                      ><span>17+ Hours</span></label
+                    >
+                  </div>
+                </div>
+                <!----><!----><!---->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="container" class="container"></div>
+    </div>
+
+    <script src="./index.js">
+    </script>
+  </body>
+</html>
